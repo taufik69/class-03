@@ -153,19 +153,34 @@
 //   console.log("true hoi nai tai se niche acce");
 // }
 
-let nam = "";
-let email = "";
-let phoneNumber = "";
-let commnet = "";
+// let nam = "";
+// let email = "";
+// let phoneNumber = "";
+// let commnet = "";
 
-if (nam) {
-  console.log("yes name field is populated / fillup");
-} else if (email) {
-  console.log("email ase ");
-} else if (phoneNumber) {
-  console.log("phoneNumber ase ");
-} else if (commnet) {
-  console.log("commnet ase");
+// if (nam) {
+//   console.log("yes name field is populated / fillup");
+// } else if (email) {
+//   console.log("email ase ");
+// } else if (phoneNumber) {
+//   console.log("phoneNumber ase ");
+// } else if (commnet) {
+//   console.log("commnet ase");
+// } else {
+//   console.log("user kono from fillup kore nai");
+// }
+
+let age = prompt("Enter your age:");
+let numberAge = Number(age);
+
+if (numberAge === 18) {
+  console.log("tomi vote dite parba");
+} else if (numberAge >= 18 && numberAge <= 79) {
+  console.log("vote deyar jonno tomi ekbare prepared");
+} else if (numberAge < 18) {
+  console.log("tomar ekhon oo boyos hoi nai , tmr ammur kase chole jao baba");
+} else if (numberAge >= 80) {
+  console.log("Allah Allah kor vai toi , tore vote dite hobe na");
 } else {
-  console.log("user kono from fillup kore nai");
+  console.log("system falut");
 }
