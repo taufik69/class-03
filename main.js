@@ -134,3 +134,38 @@
 
 // let addingEx = x.concat(y);
 // console.log(addingEx);
+
+/**
+ * * if else else if and switch statement
+ * todo : voting system mini project
+ * ! : it's called a conditional statement
+ *
+ */
+
+// let a = 12;
+// if (a == 10) {
+//   //---> boolean context check true and fasle
+//   // this portion or carley braces called a execution context
+//   console.log("Yes i charming in if coditons");
+// } else if (a == 12) {
+//   console.log("ha 12 paice tai milce r ami print hoici");
+// } else {
+//   console.log("true hoi nai tai se niche acce");
+// }
+
+let nam = "";
+let email = "";
+let phoneNumber = "";
+let commnet = "";
+
+if (nam) {
+  console.log("yes name field is populated / fillup");
+} else if (email) {
+  console.log("email ase ");
+} else if (phoneNumber) {
+  console.log("phoneNumber ase ");
+} else if (commnet) {
+  console.log("commnet ase");
+} else {
+  console.log("user kono from fillup kore nai");
+}
