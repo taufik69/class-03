@@ -170,17 +170,49 @@
 //   console.log("user kono from fillup kore nai");
 // }
 
-let age = prompt("Enter your age:");
-let numberAge = Number(age);
+// let age = prompt("Enter your age:");
+// let numberAge = Number(age);
 
-if (numberAge === 18) {
-  console.log("tomi vote dite parba");
-} else if (numberAge >= 18 && numberAge <= 79) {
-  console.log("vote deyar jonno tomi ekbare prepared");
-} else if (numberAge < 18) {
-  console.log("tomar ekhon oo boyos hoi nai , tmr ammur kase chole jao baba");
-} else if (numberAge >= 80) {
-  console.log("Allah Allah kor vai toi , tore vote dite hobe na");
-} else {
-  console.log("system falut");
+// if (numberAge === 18) {
+//   console.log("tomi vote dite parba");
+// } else if (numberAge >= 18 && numberAge <= 79) {
+//   console.log("vote deyar jonno tomi ekbare prepared");
+// } else if (numberAge < 18) {
+//   console.log("tomar ekhon oo boyos hoi nai , tmr ammur kase chole jao baba");
+// } else if (numberAge >= 80) {
+//   console.log("Allah Allah kor vai toi , tore vote dite hobe na");
+// } else {
+//   console.log("system falut");
+// }
+
+/**
+ * todo : switch statement another form of if else condition
+ 
+ */
+
+let x = "music";
+switch (x) {
+  case "fan": {
+    console.log("Fan start");
+    break;
+  }
+  case "Bulb": {
+    console.log("Bulb start");
+    break;
+  }
+  case "Ac": {
+    console.log("AC start");
+    break;
+  }
+  case "pc": {
+    console.log("Pc on");
+    break;
+  }
+  case "music": {
+    console.log("music play");
+    break;
+  }
+  default: {
+    console.log("tomi jeita khojtaco seita ei khan a nai");
+  }
 }
