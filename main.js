@@ -190,29 +190,82 @@
  
  */
 
-let x = "music";
-switch (x) {
-  case "fan": {
-    console.log("Fan start");
-    break;
-  }
-  case "Bulb": {
-    console.log("Bulb start");
-    break;
-  }
-  case "Ac": {
-    console.log("AC start");
-    break;
-  }
-  case "pc": {
-    console.log("Pc on");
-    break;
-  }
-  case "music": {
-    console.log("music play");
-    break;
-  }
-  default: {
-    console.log("tomi jeita khojtaco seita ei khan a nai");
-  }
-}
+// let x = "music";
+// switch (x) {
+//   case "fan": {
+//     console.log("Fan start");
+//     break;
+//   }
+//   case "Bulb": {
+//     console.log("Bulb start");
+//     break;
+//   }
+//   case "Ac": {
+//     console.log("AC start");
+//     break;
+//   }
+//   case "pc": {
+//     console.log("Pc on");
+//     break;
+//   }
+//   case "music": {
+//     console.log("music play");
+//     break;
+//   }
+//   default: {
+//     console.log("tomi jeita khojtaco seita ei khan a nai");
+//   }
+// }
+
+/**
+ * todo:  argument object
+ *
+ * */
+
+// function func1(a, b, c) {
+/**
+ * todo : mutant argument value
+ */
+
+//   console.log((arguments[0] = "sorna"));
+//   console.log(typeof arguments);
+//   console.log("Arguments length", arguments.length);
+//   console.log(arguments[0]);
+//   // Expected output: 1
+
+//   console.log(arguments[1]);
+//   // Expected output: 2
+
+//   console.log(arguments[2]);
+//   // Expected output: 3
+// }
+
+// func1("taufik", 2, 3);
+
+// function myConcat(separator) {
+//   console.log("arguments: ", arguments);
+//   console.log("sepeattor: ", separator);
+//   const args = Array.prototype.slice.call(arguments, 1);
+//   const args = [...arguments];
+//   return args.join(separator);
+// }
+
+// let result = myConcat(", ", "red", "orange", "blue");
+// console.log(result);
+
+/**
+ * todo: function and all possible function types
+ * * function Name : normal function , arrow function , annomoys function , IIFE funciton
+ */
+
+// Normal function
+
+// function kodJo(pera) {
+
+//   console.log("jodo charming in jodu funciton", pera);
+// }
+
+// kodo("aklstdj"); //fucntion arguments/ perameter
+// // for (let i = 0; i < 10; i++) {
+// //   jodo();
+// // }
