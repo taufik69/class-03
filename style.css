@@ -1,0 +1,24 @@
+div {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+  flex-direction: column;
+  row-gap: 20px;
+}
+.imgbody {
+  background: #000;
+  height: 5vh;
+  padding: 10px;
+}
+
+.imgbody2 {
+  background: #000;
+  height: 5vh;
+  padding: 100px;
+  background-color: red;
+}
+
+.scaleimg {
+  transform: scale(6);
+}

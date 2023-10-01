@@ -260,12 +260,89 @@
 
 // Normal function
 
-// function kodJo(pera) {
-
-//   console.log("jodo charming in jodu funciton", pera);
+// function NameMaker(a = "xy", b = "z") {
+//   let fullName = a.concat(b);
+//   return fullName;
 // }
 
-// kodo("aklstdj"); //fucntion arguments/ perameter
-// // for (let i = 0; i < 10; i++) {
-// //   jodo();
-// // }
+// function showName(a = "kico nai") {
+//   output.innerHTML = a;
+//   output.style.textAlign = "center";
+//   output.style.color = "red";
+// }
+
+// let returnFullName = NameMaker("taufik", "islam");
+
+// showName(returnFullName);
+
+/**
+ * todo : Arrow function
+ */
+
+// let ArrowFunction = (a) => {
+//   return a;
+// };
+
+// let returnValue = ArrowFunction("Taufik");
+
+// console.log("this is annomous funciton", returnValue);
+
+/**
+ * todo : anonymous funciton
+ */
+
+// let annofun = function () {
+//   console.log("this is annofunciton");
+// };
+
+// annofun();
+
+/**
+ * todo : when click button then chage the body background color
+ */
+// const btn = document.querySelector(".btn");
+// const body = document.querySelector("body");
+
+// btn.addEventListener("click", function () {
+//   let Returnrgb = generateColor();
+//   let returnRgb2 = generateColor2();
+//   body.style.backgroundColor = Returnrgb;
+//   body.style.transition = "all linear .3s";
+//   btn.style.backgroundColor = returnRgb2;
+// });
+
+// function generateColor() {
+//   let red = Math.floor(Math.random() * 255);
+//   let green = Math.floor(Math.random() * 255);
+//   let blue = Math.floor(Math.random() * 255);
+//   let rgb = `rgb(${red},${green},${blue})`;
+//   return rgb;
+// }
+
+// function generateColor2() {
+//   let red = Math.floor(Math.random() * 255);
+//   let green = Math.floor(Math.random() * 255);
+//   let blue = Math.floor(Math.random() * 255);
+//   let rgb2 = `rgb(${red},${green},${blue})`;
+//   return rgb2;
+// }
+
+// btn.addEventListener("mousemove", function () {
+//   body.classList.toggle("active");
+// });
+
+/**
+ * todo : img pop up
+ */
+
+const btn = document.querySelector(".btn");
+const imgbody = document.querySelector(".imgbody");
+const img = document.querySelector("img");
+console.log(img);
+
+btn.addEventListener("click", function () {
+  imgbody.style.transition = "all linear .3s";
+  img.style.transition = "all linear .3s";
+  imgbody.classList.toggle("imgbody2");
+  img.classList.toggle("scaleimg");
+});
